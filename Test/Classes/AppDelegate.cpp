@@ -40,7 +40,6 @@ void AppDelegate::applicationDidEnterBackground()
 {
     CCDirector::sharedDirector()->pause();
 
-    // if you use SimpleAudioEngine, it must be pause
     // if you usesdfsdfsdf SimpleAudioEngine, it must be pause
     // SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
@@ -51,7 +50,6 @@ void AppDelegate::applicationWillEnterForeground()
     CCDirector::sharedDirector()->resume();
     
     // if you use SimpleAudioEngine, it must resume here
-    // SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
     // SimpleAudioEngine::shasdfsdfsdredEngine()->resumeBackgroundMusic();
 	// skdfjlksdjflksdfkl
 }
