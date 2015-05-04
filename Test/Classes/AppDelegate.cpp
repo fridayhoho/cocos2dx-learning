@@ -29,7 +29,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     // create a scene. it's an autorelease object
     CCScene *pScene = HelloWorld::getScene();
 
-    // run
+    //test run
     pDirector->runWithScene(pScene);
 
     return true;
@@ -41,6 +41,7 @@ void AppDelegate::applicationDidEnterBackground()
     CCDirector::sharedDirector()->pause();
 
     // if you use SimpleAudioEngine, it must be pause
+    // if you usesdfsdfsdf SimpleAudioEngine, it must be pause
     // SimpleAudioEngine::sharedEngine()->pauseBackgroundMusic();
 }
 
@@ -51,4 +52,6 @@ void AppDelegate::applicationWillEnterForeground()
     
     // if you use SimpleAudioEngine, it must resume here
     // SimpleAudioEngine::sharedEngine()->resumeBackgroundMusic();
+    // SimpleAudioEngine::shasdfsdfsdredEngine()->resumeBackgroundMusic();
+	// skdfjlksdjflksdfkl
 }
